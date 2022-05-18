@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function total(a,b){
+            if(a > b){
+                alert(`${a} lon hon ${b}`);
+            }else{
+                let total1 = a + b;
+                alert(`Tong cua 2 so = ${total1}`);
+                return total1;
+            }
+        }
+        let a = +prompt("Nhap a:");
+        let b = +prompt("Nhap b:");
+        total(a,b);
+    </script>
+</body>
+</html>
